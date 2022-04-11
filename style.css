@@ -1,24 +1,38 @@
-.Gallery img{
+.gallery img{
     width: 100%;
 }
+
 #menu{
     width: 100%;
     height: 40px;
-    background-color: cornflowerblue;
-    padding-top: 20px;
+    background-color: #2874cc;
+    padding-top: 12px
 }
+
 #menu a{
     color: #ffffff;
-    font-family: Helvetica,sans-serif;
-    font-size: 14px;
-    text-decoration: none;
-    font-weight: 500;
+    font-size: 20px;
+    text-decoration: inherit;
+    font-weight: 800;
     
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20%   
 }
 
 #menu a:hover{
-    
-    color: #5077bd;
+    color: #5ee8dd;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 50px;
+    padding-left: 40%;
+    background-color: #2874cc;
+}
+p{
+    color: #2874cc;
+}
+h2{
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #2874cc;
 }
